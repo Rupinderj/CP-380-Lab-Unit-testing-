@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using IsItALeapYear;
 
 namespace UnitTestProject1
 {
@@ -26,5 +27,68 @@ namespace UnitTestProject1
  Assert.AreEqual(expected, actual);
 
 }
+        [TestMethod]
+
+        public void Year_1996_Is_a_leap_year()
+
+        {
+
+            // Arrange
+
+            var p = new Program();
+
+            var expected = true;
+
+            // Act
+
+            var actual = p.IsItALeapYear(1996);
+
+            // Assert
+
+            Assert.AreEqual(expected, actual);
+
+        }
+        [TestMethod]
+
+        public void Year_1900_Is_a_leap_year()
+
+        {
+
+            // Arrange
+
+            var p = new Program();
+
+            var expected = false;
+
+            // Act
+
+            var actual = p.IsItALeapYear(1900);
+
+            // Assert
+
+            Assert.AreEqual(expected, actual);
+
+        }
+        [TestMethod]
+
+        public void Year_2000_Is_a_leap_year()
+
+        {
+
+            // Arrange
+
+            var p = new Program();
+
+            var expected = true;
+
+            // Act
+
+            var actual = p.IsItALeapYear(2000);
+
+            // Assert
+
+            Assert.AreEqual(expected, actual);
+
+        }
     }
 }
