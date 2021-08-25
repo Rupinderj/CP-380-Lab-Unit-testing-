@@ -6,23 +6,23 @@ namespace IsItALeapYear
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Is it a leap year");
         }
-        public Boolean IsItALeapYear(int a)
+        public Boolean IsItALeapYear(int year)
         {
-           
-            if ((a % 4) == 0)
+            if(year%4==0)
             {
+                if(year%100==0)
+                {
+                    if(year%400==0)
+                    {
+                        return true;
+                    }
+                    return false;
+                }
                 return true;
             }
-            else if ((a % 400) == 0)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+           return false;
         }
     }
 }

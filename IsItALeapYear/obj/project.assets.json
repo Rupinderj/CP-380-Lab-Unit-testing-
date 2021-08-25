@@ -1,29 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "UnitTestProject1/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/UnitTestProject1.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/UnitTestProject1.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "UnitTestProject1/1.0.0": {
-      "type": "project",
-      "path": "../UnitTestProject1/UnitTestProject1.csproj",
-      "msbuildProject": "../UnitTestProject1/UnitTestProject1.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "UnitTestProject1 >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\localstudent\\.nuget\\packages\\": {},
@@ -32,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\localstudent\\Documents\\GitHub\\CP-380-Lab-Unit-testing-\\IsItALeapYear\\IsItALeapYear.csproj",
+      "projectUniqueName": "C:\\Users\\localstudent\\Desktop\\CP-380-Lab-Unit-testing-\\IsItALeapYear\\IsItALeapYear.csproj",
       "projectName": "IsItALeapYear",
-      "projectPath": "c:\\Users\\localstudent\\Documents\\GitHub\\CP-380-Lab-Unit-testing-\\IsItALeapYear\\IsItALeapYear.csproj",
+      "projectPath": "C:\\Users\\localstudent\\Desktop\\CP-380-Lab-Unit-testing-\\IsItALeapYear\\IsItALeapYear.csproj",
       "packagesPath": "C:\\Users\\localstudent\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\localstudent\\Documents\\GitHub\\CP-380-Lab-Unit-testing-\\IsItALeapYear\\obj\\",
+      "outputPath": "C:\\Users\\localstudent\\Desktop\\CP-380-Lab-Unit-testing-\\IsItALeapYear\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -55,11 +37,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "c:\\Users\\localstudent\\Documents\\GitHub\\CP-380-Lab-Unit-testing-\\UnitTestProject1\\UnitTestProject1.csproj": {
-              "projectPath": "c:\\Users\\localstudent\\Documents\\GitHub\\CP-380-Lab-Unit-testing-\\UnitTestProject1\\UnitTestProject1.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -86,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
